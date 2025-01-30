@@ -1,3 +1,11 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: vaultwarden
+      APP_PORT: 8088
+      PROXY_AUTH_ADD: "false"
 services:
   vaultwarden:
     image: vaultwarden/server:latest
@@ -10,4 +18,4 @@ services:
     volumes:
       - ${APP_DATA_DIR}//vw-data:/data
     environment:
-      - ADMIN_TOKEN=${VAULTWARDEN_ADMIN_TOKEN}
+      - ADMIN_TOKEN=yoursecuritytoken
