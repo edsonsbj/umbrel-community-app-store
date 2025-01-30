@@ -1,5 +1,6 @@
 manifestVersion: 1
 id: zoneminder
+category: automation
 name: Zoneminder
 tagline: Replace this tagline with your app's tagline
 icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPsuk30CSlEs5njZWkTVRyxiPq7piHCPKmIKtfG92Y4ttmo6mglnC-U21sN5vJJLxtJP4&usqp=CAU
