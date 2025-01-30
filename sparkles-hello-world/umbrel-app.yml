@@ -1,30 +1,35 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
-version: "1.0.0"
-port: 4000
+id: onlyoffice-mobile-editing-nextcloud
+category: files
+name: ONLYOFFICE Docs Mobile Editing
+version: "8.1.3"
+tagline: Online office for Nextcloud
 description: >-
-  Add your app's description here.
+  An online office suite for Nextcloud that enables you to create, edit and collaborate on text documents, spreadsheets and presentations in real time.
 
 
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
-gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  Simply install ONLYOFFICE Docs and follow the in-app instructions to connect it to Nextcloud running on your Umbrel.
 releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
+  This release includes improvements to the document, spreadsheet, presentation, pdf, and form editors, as well as security and performance improvements.
+
+
+  Full release notes are found at https://github.com/ONLYOFFICE/DocumentServer/blob/master/CHANGELOG.md#822
+developer: Ascensio System SIA
+website: https://www.onlyoffice.com/
+dependencies:
+  - nextcloud
+repo: https://github.com/thomisus/Docker-DocumentServer.git
+support: https://forum.onlyoffice.com/
+port: 3014
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+  - 4.jpg
+  - 5.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+submitter: a4004
+submission: https://github.com/getumbrel/umbrel-apps/pull/1288
+
