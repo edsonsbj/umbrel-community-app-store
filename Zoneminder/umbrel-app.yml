@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: zoneminder
+name: Zoneminder
+tagline: Replace this tagline with your app's tagline
+icon: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPsuk30CSlEs5njZWkTVRyxiPq7piHCPKmIKtfG92Y4ttmo6mglnC-U21sN5vJJLxtJP4&usqp=CAU
+category: Development
+version: "1.36"
+port: 8888
+description: >-
+**  A full-featured, open source, state-of-the-art video surveillance software system.
+
+Monitor your home, office, or wherever you want. Using off the shelf hardware with any camera, you can design a system as large or as small as you need.
+
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://zoneminder.com/
+submitter: Umbrel
+submission: https://github.com/dlandon/zoneminder.master-docker
+repo: https://github.com/dlandon/zoneminder.master-docker
+support: https://github.com/dlandon/zoneminder.master-docker/issues
+gallery:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXY6hHSADONEJvfBK0WZdBSDvEC1Rxp4qwGoMjkyWIN-hO-dHp7ivDz9q6qwuKg7qsYGc&usqp=CAU
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
