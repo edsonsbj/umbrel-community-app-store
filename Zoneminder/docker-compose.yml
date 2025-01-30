@@ -15,8 +15,8 @@ services:
       - MULTI_PORT_START=0
       - MULTI_PORT_END=0
     volumes:
-      - ./config:/config
-      - ./data:/var/cache/zoneminder
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}//data:/var/cache/zoneminder
     healthcheck:
       test: ["CMD", "curl", "-fk", "https://0.0.0.0:443/zm"]
       interval: 30s
