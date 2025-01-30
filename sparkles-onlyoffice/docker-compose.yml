@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  documentserver:
+    container_name: documentserver
+    image: thomisus/onlyoffice-documentserver-unlimited:latest
+    stdin_open: true
+    tty: true
+    restart: always
+    ports:
+      - 8085:80
+    volumes:
+      - ${APP_DATA_DIR}/data/logs:/var/log/onlyoffice
+      - ${APP_DATA_DIR}/data/certs:/var/www/onlyoffice/Data
+      - ${APP_DATA_DIR}/data/cache:/var/lib/onlyoffice
+      - ${APP_DATA_DIR}/data/db:/var/lib/postgresql
+    environment:
+      - JWT_ENABLED=false
